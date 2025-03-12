@@ -11,6 +11,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: var(--main-font);
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 a {
   color: var(--link-color);
@@ -50,12 +52,19 @@ p {
   text-decoration: none;
 }
 .work-container {
-  padding: 160px 20px;
+  padding: 250px;
 }
 .work-container h2 {
-  font-size: 40px;
+  font-size: 45px;
   font-weight: bold;
   margin-top: 30px;
+}
+.work-container img {
+  max-width: 65%;
+  height: auto;
+}
+.weather-description {
+  padding: 30px;
 }
 .project-btn-1 {
   background: rgb(254, 223, 181);
