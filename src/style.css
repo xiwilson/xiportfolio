@@ -91,8 +91,6 @@ p {
   margin-top: 30px;
 }
 .weather-description {
-  padding: 100px;
-  margin-right: 100px;
 }
 .project-btn-1 {
   display: block;
@@ -113,8 +111,6 @@ p {
   text-decoration: none;
 }
 .clock-description {
-  padding: 100px;
-  margin-left: 100px;
 }
 .project-btn-2 {
   display: block;
@@ -135,8 +131,6 @@ p {
   text-decoration: none;
 }
 .film-description {
-  padding: 100px;
-  margin-right: 100px;
 }
 .project-btn-3 {
   display: block;
