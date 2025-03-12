@@ -15,6 +15,20 @@ body {
 a {
   color: var(--link-color);
 }
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 45px;
+}
+h3 {
+  font-size: 55px;
+}
+p {
+  font-size: 22px;
+  opacity: 70%;
+  line-height: 40px;
+}
 .hero {
   text-align: center;
   font-family: var(--main-font);
@@ -35,7 +49,14 @@ a {
   font-size: 20px;
   text-decoration: none;
 }
-
+.work-container {
+  padding: 160px 20px;
+}
+.work-container h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 30px;
+}
 .project-btn-1 {
   background: rgb(254, 223, 181);
   background: linear-gradient(
@@ -50,21 +71,6 @@ a {
   font-weight: 600;
   font-size: 20px;
   text-decoration: none;
-}
-h1 {
-  font-size: 80px;
-}
-h2 {
-  font-size: 55px;
-  color: #f686f6;
-}
-h3 {
-  font-size: 45px;
-}
-p {
-  font-size: 22px;
-  opacity: 70%;
-  line-height: 40px;
 }
 footer {
   text-align: center;
