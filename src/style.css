@@ -131,11 +131,12 @@ nav ul {
   margin-top: 50px;
 }
 .work-container img {
+  margin-top: 30px;
   max-width: 65%;
   height: auto;
 }
-.project-desciption {
-  padding: 120px 60px;
+.project-description {
+  padding: 60px 20px;
 }
 .project-btn-1,
 .project-btn-2,
@@ -287,23 +288,33 @@ footer {
   }
   .work-container {
     margin: 40px 10px;
-    padding: 20px;
+    padding: 10px;
   }
   .work-container h4 {
-    font-size: 27px;
-  }
-  .work-container h2 {
-    font-size: 25px;
+    font-size: 29px;
+    font-weight: bold;
+    margin-bottom: 20px;
   }
   .project-description {
-    display: inline;
+    margin: -10px 20px;
+    padding: 30px;
+    background-color: #b7d5fc45;
+    border: 1px solid white;
+    border-radius: 15px;
   }
-
+  .project-description h2 {
+    font-size: 28px;
+    margin: 0;
+  }
+  .project-description p {
+    text-align: center;
+    font-size: 18px;
+  }
   .project-btn-1,
   .project-btn-2,
   .project-btn-3 {
     font-size: 17px;
-    padding: 10px;
+    padding: 10px 20px;
   }
   .cert-container {
     display: none;
