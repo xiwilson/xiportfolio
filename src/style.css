@@ -44,7 +44,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: var(--link-color) !important;
+  color: var(--secondary-color) !important;
   transition: all 150ms ease-in-out !important;
 }
 nav {
@@ -67,11 +67,13 @@ nav ul {
 }
 .logo {
   max-width: 80px;
+  max-height: auto;
 }
-.hero {
+.hero,
+.h1-top {
   text-align: center;
   font-family: var(--main-font);
-  margin: 20px 300px;
+  margin: 20px 100px;
   color: #242429;
   background-color: #ebd9f793;
   border: 1px solid white;
@@ -79,9 +81,10 @@ nav ul {
   padding: 40px;
   border-radius: 15px;
 }
-.hero h1 {
+.hero h1,
+.h1-top {
   margin-top: 30px;
-  font-size: 80px;
+  font-size: 70px;
   text-align: center;
   font-weight: 700;
 }
@@ -108,7 +111,7 @@ nav ul {
   font-size: 20px;
 }
 .work-container {
-  margin: 80px 300px;
+  margin: 80px 100px;
   padding: 50px 50px;
   border: 1px solid var(--violet);
   border-radius: 15px;
@@ -131,14 +134,14 @@ nav ul {
   max-width: 65%;
   height: auto;
 }
-
+.project-desciption {
+  padding: 120px 60px;
+}
 .project-btn-1,
 .project-btn-2,
 .project-btn-3 {
-  display: block;
-  margin-top: 70px;
   padding: 15px 30px;
-  width: 35%;
+
   text-align: center;
   border-radius: 18px;
   color: var(--primary-color);
@@ -168,32 +171,23 @@ nav ul {
     rgba(209, 239, 255, 1) 100%
   );
 }
-.h1-top {
-  font-size: 90px;
-  text-align: center;
-  font-weight: 700;
-  color: #242429;
-  background-color: #ebd9f793;
-  padding: 20px;
-  border-radius: 15px;
-}
 .cert-container {
-  margin: 40px 300px;
+  margin: 40px 100px;
   padding: 20px;
   border: 3px solid white;
   border-radius: 15px;
   background-color: #fff3bfc2;
 }
 .about-container {
-  margin: 60px 300px;
-  padding: 80px 200px;
+  margin: 60px 100px;
+  padding: 40px 100px;
   border: 3px solid white;
   border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.278);
   box-shadow: -15px -15px 30px 0 #fff, 15px 15px 30px 0 #4c4c5017;
 }
 .contact-me {
-  margin: 60px 300px;
+  margin: 60px 100px;
   padding: 40px 200px;
   border: 1px solid var(--blue);
   box-shadow: -15px -15px 30px 0 #fff, 15px 15px 30px 0 #4c4c5017;
@@ -213,8 +207,8 @@ nav ul {
 }
 .about-1-container,
 .contact-1-container {
-  margin: 60px 300px;
-  padding: 40px 200px;
+  margin: 60px 100px;
+  padding: 40px 120px;
   border: 2px solid white;
   border-radius: 15px;
   background-color: #b7d5fc67;
@@ -222,10 +216,11 @@ nav ul {
 .about-1-container h1,
 .contact-1-container h1 {
   margin-top: 10px;
-  font-size: 25px;
+  font-size: 28px;
 }
 .contact-btn {
   display: block;
+  margin: 0px 40px;
   padding: 10px;
   text-align: center;
   background: linear-gradient(
@@ -242,7 +237,7 @@ nav ul {
   text-decoration: none;
 }
 .my-work-container {
-  margin: 80px 300px;
+  margin: 80px 100px;
   padding: 60px 60px;
   border: 3px solid white;
   border-radius: 15px;
@@ -263,16 +258,27 @@ footer {
   color: rgba(47, 13, 64, 0.615);
   font-size: 20px;
 }
-@media (max-width: 1500px) {
+@media (max-width: 900px) {
+  nav {
+    margin: 10px;
+    padding: 0;
+  }
+  nav a {
+    font-size: 17px;
+  }
+  .logo {
+    max-width: 16%;
+  }
   .hero {
     text-align: center;
-    padding-bottom: 50px;
+    margin: 20px 10px;
   }
-  .hero h1 {
-    font-size: 50px;
+  .hero h1,
+  .h1-top {
+    font-size: 45px;
   }
   .hero h3 {
-    font-size: 25px;
+    font-size: 20px !important;
   }
   .btn-branding {
     font-size: 17px;
@@ -280,26 +286,26 @@ footer {
     margin: auto;
   }
   .work-container {
-    text-align: center;
-    margin: 10px;
+    margin: 40px 10px;
     padding: 20px;
   }
-  .work-container h2 {
-    font-size: 35px;
-  }
-  p {
-    font-size: 18px;
-    line-height: 1.5;
-  }
   .work-container h4 {
-    font-size: 20px;
+    font-size: 27px;
   }
+  .work-container h2 {
+    font-size: 25px;
+  }
+  .project-description {
+    display: inline;
+  }
+
   .project-btn-1,
   .project-btn-2,
   .project-btn-3 {
-    display: block;
-    margin: auto;
     font-size: 17px;
     padding: 10px;
+  }
+  .cert-container {
+    display: none;
   }
 }
