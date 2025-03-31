@@ -44,7 +44,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: var(--secondary-color) !important;
+  color: var(--primary-color) !important;
   transition: all 150ms ease-in-out !important;
 }
 nav {
@@ -269,6 +269,13 @@ footer {
   text-align: center;
   color: rgba(47, 13, 64, 0.615);
   font-size: 14px;
+}
+.footer-c a {
+  font-size: 14px;
+  color: rgba(47, 13, 64, 0.615);
+}
+.footer-c a:hover {
+  color: white !important;
 }
 @media (max-width: 900px) {
   nav {
